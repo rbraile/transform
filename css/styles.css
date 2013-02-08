@@ -1,0 +1,58 @@
+
+ul.container-div-list {
+  padding: 0;
+  margin: 0;
+    width: 300px;
+}
+
+ul.container-div-list li {
+  background-color: #222;
+  border-bottom: 1px solid #fff;
+  display: none;
+  list-style: none;
+  width: auto;
+  padding-right: 7px;
+}
+
+ul.show li {
+	display: block;
+}
+
+ul.container-div-list li.selected {
+  display: block;
+  background: #ccc;
+}
+
+ul.container-div-list li a {
+  color: #fff;
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.form-transform-container ul li.selected a {
+}
+
+.form-transform-container ul.show li.selected a {
+}
+
+
+/*----- checkbox styles -----*/
+
+a.checkbox,
+a.radio {
+  background: url("../images/checkbox.png") left bottom no-repeat;
+  width: 50px;
+  height: 50px;
+  text-indent: 100px;
+  white-space: nowrap;
+  overflow: hidden;
+  display: inline-block; 
+}
+
+a.checkbox.selected,
+a.radio.selected {
+  background-position: left top;
+}
+
+/*----- End of checkbox styles -----*/
